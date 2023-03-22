@@ -5,6 +5,10 @@
     <idea-version since-build="183"/>
 
     <change-notes><![CDATA[
+      <p>0.1.3:</p>
+      <ul>
+        <li>Fix UnixDomainSocket connection failure on Apple Silicon</li>
+      </ul>
       <p>0.1.2:</p>
       <ul>
         <li>Fix JDK version issue under Windows</li>
