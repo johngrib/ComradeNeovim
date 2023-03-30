@@ -1,7 +1,7 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 group = "org.beeender"
-version = "0.1.3-SNAPSHOT"
+version = "0.1.4-SNAPSHOT"
 
 buildscript {
     repositories { mavenCentral() }
