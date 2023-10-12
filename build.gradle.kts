@@ -11,7 +11,7 @@ buildscript {
 }
 
 plugins {
-    id("org.jetbrains.intellij") version "0.4.7"
+    id("org.jetbrains.intellij") version "1.15.0"
     kotlin("jvm") version "1.3.21"
 }
 
@@ -40,9 +40,9 @@ java {
 }
 
 intellij {
-    updateSinceUntilBuild = false
-    // If the instrumentCode is enabled, the Test cannot call internal method.
-    // See https://github.com/JetBrains/gradle-intellij-plugin/issues/230
-    instrumentCode = false
-    version = "2019.1"
+
+    version.set("2023.2.2")
+    type.set("IC") // Target IDE Platform
+
+    plugins.set(listOf(/* Plugin Dependencies */))
 }
